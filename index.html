@@ -11,14 +11,15 @@
 
 <body>
     <header class="header">
-        <h1>CARA<img src="assets\UX-HTML-CSS\icons8-pottery-96.png" alt="cara logo pot, orange">CARA</h1>
+        <h1>CARA<img class="logo-vase" src="assets\UX-HTML-CSS\icons8-pottery-96.png" alt="cara logo pot, orange">CARA
+        </h1>
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-each"><a href="#home"> HOME </a> </li>
                 <li class="nav-each"><a href="#about-us">ABOUT</a></li>
                 <li class="nav-each"><a href="#our-products">PRODUCTS</a></li>
                 <li class="nav-each"><a href="#contact">CONTACT</a></li>
-                <li class="nav-li">
+                <li class="nav-each">
                     <div class="search-bar">
                         <input type="text" title="Search Bar">
                         <img class="magnifying-glass" src="assets\UX-HTML-CSS\1200px-Google_Magnifying_Glass.svg.png"
@@ -30,41 +31,58 @@
             </ul>
         </nav>
     </header>
+    <hr>
     <main>
         <hero class="hero-img">
             <img src="assets\UX-HTML-CSS\Hero.png" alt="image of hands forming a ceramic bowl">
         </hero>
-        <section id="about-us">
+
+        <section class="about-us" id="about-us">
             <h2>ABOUT US</h2>
-            <div class="about-left">
-                <div class="upper-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente aliquid necessitatibus,
+            <hr class="hr2">
+
+            <div class="upper-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente aliquid necessitatibus,
                     illum
                     explicabo rerum eaque,ex non id nisi ab enim, fugit expedita ipsam nobis officia cumque molestiae
                     laudantium?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque nemo asperiores numquam
                     perspiciatis nostrum nam in non ratione minima ex quaerat vitae, officia autem repellendus ipsa? Ad,
                     quasi
-                    cupiditate!
-                </div>
-                <div class="about-img-left">
-                    <img src="assets\UX-HTML-CSS\Vase_Dame_2048x2048.jpg"
-                        alt="image of whote ceramic vase with flower in it">
-                </div>
-                <div class="lower-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente aliquid necessitatibus,
-                    illum
-                    explicabo rerum eaque,ex non id nisi ab enim, fugit expedita ipsam nobis officia cumque molestiae
-                    laudantium?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque nemo asperiores numquam
-                    perspiciatis nostrum nam in non ratione minima ex quaerat vitae, officia autem repellendus ipsa? Ad,
-                    quasi
-                    cupiditate!
-                </div>
+                    cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas facilis porro
+                    accusamus quidem numquam! Maiores facere maxime, consequatur quos, vel ducimus similique perferendis
+                    dolorum, vitae enim optio veritatis hic?
+                </p>
             </div>
+            <div class="about-img-left">
+                <img  src="assets\UX-HTML-CSS\Vase_Dame_2048x2048.jpg"
+                    alt="image of whote ceramic vase with flower in it">
+            </div>
+            <div class="lower-text-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente aliquid necessitatibus,
+                    illum
+                    explicabo rerum eaque,ex non id nisi ab enim, fugit expedita ipsam nobis officia cumque molestiae
+                    laudantium?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque nemo asperiores numquam
+                    perspiciatis nostrum nam in non ratione minima ex quaerat vitae, officia autem repellendus ipsa? Ad,
+                    quasi
+                    cupiditate!
+                </p>
+            </div>
+            <div class="about-img-right">
+                <img src="assets\UX-HTML-CSS\Cylinder_unglazed3_2048x2048.jpg" alt="white vase with tall plant">
+            </div>
+            <div class="lower-text-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat laboriosam veniam fuga? Non,
+                    nulla? Cumque sit, optio ratione, totam aspernatur quibusdam voluptatem temporibus natus eius nam
+                    excepturi ex veniam odit.
+                </p>
+            </div>
+
         </section>
         <section id="our-products">
             <h2>OUR PRODUCTS</h2>
+            <hr class="hr2">
             <div class="product">
                 <h3>MUNDO BOWLS</h3>
                 <h4>$48.00</h4>
@@ -226,13 +244,13 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section class="contact-section" id="contact">
             <h2>CONTACT US</h2>
+            <hr class="hr2">
             <form>
-                <label> EMAIL:</label>
-                <input>
-                <label>MESSAGE:</label>
-                <input>
+                Email: <input type="text"> <br>
+                Message: <input type="text"> <br>
+                <button>Send</button>
             </form>
         </section>
     </main>
