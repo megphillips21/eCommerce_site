@@ -10,7 +10,8 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;  /* Make font-size 10px; 1rem=10px */
+    font-size: 62.5%;
+    /* Make font-size 10px; 1rem=10px */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 50;
 }
@@ -41,40 +42,52 @@ h2 {
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 0%;
-    
-}
-.upper-text{
-    margin-left: 5%;
-    margin-right: 41% ;
-    margin-top: 2%;
+    display: block;
+
 }
 
-.lower-text-1{
-    margin-left: 25%;
-    margin-right: 41% ;
+.upper-text {
+    margin-left: 5%;
+    margin-right: 53%;
     margin-top: 2%;
     display: inline-block;
 }
 
-.about-img-left{
+.lower-text-1 {
+    margin-left: 25%;
+    margin-right: 53%;
+    margin-top: 2%;
+
+}
+
+.lower-text-2 {
+    margin-left: 25%;
+    margin-right: 53%;
+    margin-top: 2%;
+    margin-bottom: 15%;
+
+}
+
+.about-img-left {
     margin-right: 0%;
     margin-left: 5%;
     margin-top: 2%;
     width: 200px;
-    height: 400px;
+    height: 300px;
     object-fit: contain;
-    display: inline-block;
-    
+    float: left;
+
 }
 
-.about-img-right{
-    margin-right: 40%;
-    margin-left: 5%;
+.about-img-right {
+    margin-right: 2%;
+    margin-left: 2%;
     margin-top: 2%;
-    width: 200px;
-    height: 400px;
+    width: 400px;
+    height: 800px;
     object-fit: contain;
-    
+    float: right;
+
 }
 
 li {
@@ -93,13 +106,36 @@ hr {
     background-color: #070707;
 }
 
-hero {
-    width: 1080px;
-    height: 50em;
-    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+.hero-img {
+    width: 20%;
+    height: 50%;
     background-size: cover;
     background-position: center;
-    position: relative;
+    background-color: #070707;
+}
+
+h3 {
+    margin-left: 0%;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+h4 {
+    float: right;
+    margin-right: 0%;
+    
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+}
+
+
+.product {
+    padding: 20px;
+    text-align: left;
 }
 
 .logo-vase {
@@ -116,23 +152,67 @@ hero {
 }
 
 .hr2 {
-    width: 50%;
+    width: 40%;
     margin-right: 25%;
     margin-left: 5%;
     margin-top: 1%;
+}
+
+.hr3 {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: inline-block;
 }
 
 .about-image-left {
     float: right;
 }
 
-.card {
+.product {
     max-width: 25rem;
 }
 
-.card-image {
-    max-height: 150px;
-    padding-bottom: 20rem;
+.product-image {
+    height: 150px;
+    object-fit: none;
+}
+
+.form {
+    margin-left: 5%;
+}
+
+footer {
+    background-color: #BF7631;
+    position: relative;
+    padding: 1rem;
+}
+
+.grid {
+    height: 30px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    display: inline-flex;
+    margin-left: 40%; 
+}
+
+.grid-left {
+    height: 60px;
+    float: left;
+    margin-left: 15%;
+}
+
+.grid-right {
+    height: 60px;
+    float: right;
+    margin-right: 15%;
+    /* width: 40px; */
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto;
 }
 
 .header-image {
@@ -141,6 +221,11 @@ hero {
     padding-right: 4px;
 }
 
+.footer-image {
+    height: 3rem;
+    box-sizing: unset;
+    padding-right: 4px;
+}
 
 .magnifying-glass {
     height: 1.5rem;
@@ -183,6 +268,12 @@ hero {
     padding: 1rem;
     padding-left: 1rem;
     list-style-type: none;
+}
 
-    /* width: 40vw; */
+.copyright{
+    
+    display: block;
+    margin-top: 1%;
+    margin-left: 60%;
+    background-color: #BF7631;
 }
