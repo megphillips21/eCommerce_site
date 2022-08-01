@@ -1,71 +1,52 @@
-/* body {
-    background-color: black;
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Make font-size 10px; 1rem=10px */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 50;    
 }
 
-.navbar .navbar-brand {
-    color: lightgray;
-}
 
-.nav-link:hover {
-    color: darkgray;
-}
 
-.nav-link {
-    color: lightgray;
-}
-
-section {
-    padding-top: 6%;
-}
-
-img {
+.nav-li {
     width: 100%;
 }
 
-h1 {
-    color: gray;
-    padding: 3% 0px;
-    text-align: center;
+.magnifying-glass {
+    height: 1.5rem;
+    position: absolute;
+    right: .4rem;
+    top: .8rem;
 }
 
-p {
-    color: gray;
+.search-bar {
+    position: absolute;
+    right: 8rem;
 }
 
-#contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.nav-each {
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+    width: 40vw;
 }
 
-form {
-    padding-bottom: 15%;
+.nav-a {
+    color: #070707;
+    text-decoration: none;
+    width: 100%;
 }
 
-.form-spacing {
-    padding-bottom: 2%;
-    padding-top: 1%;
+.nav-b {
+    position: absolute;
+    right:1rem;
 }
 
-.contact-info-label {
-    background-color: black;
-    color: gray;
+.nav {
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+    width: 100%;
 }
-
-.contact-info {
-    background-color: gray;
-    border-color: navy;
-}
-
-.contact-info::placeholder {
-    color: navy;
-  }
-
-.contact-info:focus {
-    background-color: lightgray;
-}
-
-.submit-button {
-    background-color: darkgray;
-    color: navy;
-} */
