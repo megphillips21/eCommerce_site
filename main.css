@@ -4,8 +4,24 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 50;    
 }
+header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
 
+.header-image {
+    height: 3rem;
+    box-sizing: unset;
+    padding-right: 4px;
+}
 
 .nav-li {
     width: 100%;
