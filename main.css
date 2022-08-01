@@ -236,21 +236,23 @@ footer {
 
 .search-bar {
     position: absolute;
-    right: 8rem;
+    right: 20rem;
 }
 
-.nav-a {
+.nav-list {
     color: #070707;
     text-decoration: none;
     width: 100%;
 }
 
 .nav-b {
-    position: absolute;
+    /* position: absolute; */
     right: 1rem;
     text-decoration: none;
     font-size: 2rem;
-    padding-bottom: 20;
+    padding-bottom: 30;
+    float: right;
+    margin-bottom: 150rem;
 }
 
 .nav {
@@ -268,6 +270,7 @@ footer {
     padding: 1rem;
     padding-left: 1rem;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .copyright{
