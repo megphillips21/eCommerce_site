@@ -123,7 +123,7 @@ h3 {
 h4 {
     float: right;
     margin-right: 0%;
-    
+
 }
 
 .product-container {
@@ -181,6 +181,7 @@ h4 {
 
 .form {
     margin-left: 5%;
+
 }
 
 footer {
@@ -195,7 +196,8 @@ footer {
     width: auto;
     margin: auto;
     display: inline-flex;
-    margin-left: 40%; 
+    margin-left: 26%;
+    align-content: center;
 }
 
 .grid-left {
@@ -208,11 +210,12 @@ footer {
     height: 60px;
     float: right;
     margin-right: 15%;
-    /* width: 40px; */
+    align-content: space-between;
 }
 
 .grid-container {
     grid-template-columns: auto auto auto;
+    align-content: space-between;
 }
 
 .header-image {
@@ -246,13 +249,11 @@ footer {
 }
 
 .nav-b {
-    /* position: absolute; */
+    position: absolute;
     right: 1rem;
     text-decoration: none;
     font-size: 2rem;
-    padding-bottom: 30;
-    float: right;
-    margin-bottom: 150rem;
+   
 }
 
 .nav {
@@ -273,10 +274,40 @@ footer {
     text-decoration: none;
 }
 
-.copyright{
-    
+.copyright {
+
     display: block;
     margin-top: 1%;
     margin-left: 60%;
     background-color: #BF7631;
+}
+
+.button {
+    margin-left: 28%;
+}
+
+.form-button {
+    background-color: #BF7631;
+    margin-right: 30%;
+    margin-top: 1%;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.form {
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-top: auto;
+    margin-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #070707;
 }
