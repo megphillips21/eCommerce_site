@@ -54,17 +54,16 @@ h2 {
 }
 
 .lower-text-1 {
-    margin-left: 25%;
-    margin-right: 53%;
+    align-content: center;
     margin-top: 2%;
 
 }
 
 .lower-text-2 {
-    margin-left: 25%;
-    margin-right: 53%;
+    margin-left: 10%;
+    /* margin-right: 53%; */
     margin-top: 2%;
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
 
 }
 
@@ -72,8 +71,9 @@ h2 {
     margin-right: 0%;
     margin-left: 5%;
     margin-top: 2%;
-    width: 200px;
-    height: 300px;
+    padding-right: 2rem;
+    width: 300px;
+    height: 400px;
     object-fit: contain;
     float: left;
 
@@ -88,6 +88,12 @@ h2 {
     object-fit: contain;
     float: right;
 
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2%;
 }
 
 li {
@@ -128,8 +134,8 @@ h4 {
 
 .product-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-left: 10%; */
 }
 
 
@@ -166,9 +172,9 @@ h4 {
     display: inline-block;
 }
 
-.about-image-left {
+/* .about-image-left {
     float: right;
-}
+} */
 
 .product {
     max-width: 25rem;
@@ -188,16 +194,17 @@ footer {
     background-color: #BF7631;
     position: relative;
     padding: 1rem;
+    height: 11rem;
 }
 
 .grid {
-    height: 30px;
-    display: inline-block;
+    height: 55px;
+    /* display: inline-block; */
     width: auto;
     margin: auto;
     display: inline-flex;
-    margin-left: 26%;
-    align-content: center;
+    margin-left: 20%;
+    position: center;
 }
 
 .grid-left {
@@ -292,7 +299,7 @@ footer {
     margin-top: 1%;
     border: none;
     color: white;
-    padding: 8px 20px;
+    padding: 8px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -310,4 +317,21 @@ footer {
 a {
     text-decoration: none;
     color: #070707;
+}
+.learn{
+    text-decoration: underline;
+    color: #BF7631;
+    padding-top: 1rem;
+    
+}
+
+.cart-button{
+    color:white;
+    background-color: #BF7631;
+    border: none;
+    text-decoration: bold;
+    float: right;
+    font-size: xx-small;
+    padding: 8px 15px;
+
 }
